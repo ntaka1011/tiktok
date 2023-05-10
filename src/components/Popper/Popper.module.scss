@@ -1,0 +1,14 @@
+.wrapper {
+  // custom width private
+  // đưa vào trong div xét đc width
+  width: 100%;
+  // width ko qua screen
+  max-height: min((100vh - 96px) - 60px, 734px);
+  min-height: 100px;
+  padding: 8px 0px;
+  background-color: rgba(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
